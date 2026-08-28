@@ -46,7 +46,7 @@ Desarrollar una plataforma académica de streaming de video basada en microservi
 
 El proyecto estará dividido en diferentes microservicios, cada uno responsable de una parte específica de la plataforma:
 
-```text
+
 plataforma-streaming/
 │
 ├── user-service
@@ -56,8 +56,6 @@ plataforma-streaming/
 ├── rights-service
 ├── frontend
 └── docs
-
-
 
 
 ## Evidencias de implementación
