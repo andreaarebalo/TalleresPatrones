@@ -56,3 +56,35 @@ plataforma-streaming/
 ├── rights-service
 ├── frontend
 └── docs
+
+
+
+
+## Evidencias de implementación
+
+### Patrón Singleton - LoginManager
+
+Para el proceso de inicio de sesión se implementó el patrón de diseño Singleton mediante la clase `LoginManager`.
+
+El patrón permite garantizar que exista una única instancia de `LoginManager` durante la ejecución de la aplicación.
+
+La siguiente evidencia muestra la implementación del patrón Singleton:
+
+![Implementación del patrón Singleton](image.png)
+
+
+### Prueba del inicio de sesión
+
+Se realizó una prueba del endpoint de inicio de sesión utilizando Postman.
+
+**Método:** POST
+
+**Endpoint:**
+
+`http://localhost:8081/usuarios/login`
+
+Se enviaron las credenciales de prueba y el sistema respondió correctamente con el mensaje:
+
+`Inicio de sesión exitoso`
+
+![Prueba del inicio de sesión](image-1.png)
